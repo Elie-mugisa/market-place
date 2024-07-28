@@ -1,3 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Quicksand:wght@300..700&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  :root {
+    --mainBlog: 210 233 250;
+    --mainBg: 255 255 255;
+    --darkText: 17 17 17;
+    --blacko: 0 0 0;
+    --lightText: 255 255 255;
+    --accent: 255 165 0;
+  }
+}
+
+/* h6{
+  color: rgb(255, 165, 0);
+} */
